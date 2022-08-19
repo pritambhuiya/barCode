@@ -45,7 +45,7 @@ const main = (numberOfBars) => {
   const container = barCodeContainer(bars);
   const pageContents = generatePage(container);
 
-  fs.writeFileSync('barCode.html', pageContents, 'utf8');
+  fs.writeFileSync('index.html', pageContents, 'utf8');
 };
 
 main(400);
